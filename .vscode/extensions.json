@@ -1,0 +1,22 @@
+{
+    "recommendations": [
+        // Theme
+        "PKief.material-icon-theme", // Material Icon
+        "azemoh.one-monokai", // One Monokai
+
+        // Lint
+        "dbaeumer.vscode-eslint", // ESLint for VSCode
+        "rvest.vs-code-prettier-eslint", // Prettier ESLint
+        "deque-systems.vscode-axe-linter", // Axe Linter
+        "EditorConfig.EditorConfig", // Editor Config
+
+        // QoL
+        "eamodio.gitlens", // GitLens
+        "SimonSiefke.svg-preview", // SVG Preview
+        "mohsen1.prettify-json", // JSON Prettify
+        "quicktype.quicktype", // JSON Typer
+        "wix.vscode-import-cost", // Import Cost
+        "ritwickdey.LiveServer", // Live Server
+        "mongodb.mongodb-vscode", // MongoDB
+    ]
+}
