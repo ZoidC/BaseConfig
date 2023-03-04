@@ -1,0 +1,32 @@
+{
+    "root": true,
+    "env": {
+        "es2022": true,
+        "node": true
+    },
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module",
+        "project": [ "./tsconfig.json"]
+    },
+    "extends": [
+        // https://github.com/eslint/eslint/blob/main/conf/eslint-recommended.js
+        "eslint:recommended",
+        // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/configs/eslint-recommended.ts
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "plugins": [
+        // https://typescript-eslint.io/getting-started/
+        "@typescript-eslint"
+    ],
+    // override/add rules settings
+    "rules": {
+        // error
+        "indent": ["error", 4],
+        "semi": ["error", "always"],
+        // warn
+        // off
+        "no-undef": "off"
+    }
+}

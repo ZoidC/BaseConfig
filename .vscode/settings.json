@@ -1,8 +1,9 @@
 {
+    // Workbench
     "workbench.colorTheme": "One Monokai",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.tree.indent": 12,
-
+    // Editor
     "editor.tabSize": 4,
     "editor.detectIndentation": false,
     "editor.wordWrap": "on",
@@ -16,31 +17,32 @@
     "editor.linkedEditing": true,
     "editor.suggest.insertMode": "replace",
     "editor.acceptSuggestionOnCommitCharacter": false,
-    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
     "editor.tokenColorCustomizations": {
-        "comments": "#229977",
+        "comments": "#229977"
     },
-
+    // Default Formatter
+    // Better than Prettier which is heavily opinionated
+    "eslint.format.enable": true,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "javascript.format.semicolons": "insert",
+    "typescript.format.semicolons": "insert",
+    // Files
     "files.autoSave": "onFocusChange",
     "files.defaultLanguage": "typescript",
     "files.eol": "\r\n",
     "files.insertFinalNewline": true,
-
+    // Explorer
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
-    
+    // Others
     "emmet.triggerExpansionOnTab": true,
-
     // https://gitforwindows.org/
-    "terminal.integrated.profiles.windows":{
-        "Git Bash":{
-            "path":"C:\\Program Files\\Git\\bin\\bash.exe"
+    "terminal.integrated.profiles.windows": {
+        "Git Bash": {
+            "path": "C:\\Program Files\\Git\\bin\\bash.exe"
         }
     },
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "git.enableSmartCommit": true,
-
     "liveServer.settings.donotShowInfoMsg": true,
-    "typescript.format.semicolons": "insert",
-    "javascript.format.semicolons": "insert",
 }

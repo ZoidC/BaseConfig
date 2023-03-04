@@ -5,8 +5,7 @@
         "azemoh.one-monokai", // One Monokai
 
         // Lint
-        "dbaeumer.vscode-eslint", // ESLint for VSCode
-        "rvest.vs-code-prettier-eslint", // Prettier ESLint
+        "dbaeumer.vscode-eslint", // ESLint
         "deque-systems.vscode-axe-linter", // Axe Linter
         "EditorConfig.EditorConfig", // Editor Config
 
@@ -17,6 +16,6 @@
         "quicktype.quicktype", // JSON Typer
         "wix.vscode-import-cost", // Import Cost
         "ritwickdey.LiveServer", // Live Server
-        "mongodb.mongodb-vscode", // MongoDB
+        "mongodb.mongodb-vscode" // MongoDB
     ]
 }

@@ -1,2 +1,18 @@
+# Env
+.env*
+!.env.example
+
+# Logs
+logs
+*.log
+
+# Modules
 node_modules
-.env
+dist
+
+# Editor Config
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea
+.DS_Store

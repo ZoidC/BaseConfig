@@ -13,9 +13,9 @@ The `.vscode` folder is only there to save my own VSCode setup and should not st
 3. Install the recommanded extensions _(when it's done, you can delete the `.vscode/extensions.json` file)_
 
 4. Update your VSCode Settings _(when it's done, you can delete the `.vscode/settings.json` file)_
-   - Open the prompt : `CTRL + E`
-   - Type the command : `settings.json` _(you should see 2 options)_
-   - Paste the content of `.vscode/settings.json` in your local `settings.json` file
+    - Open the prompt : `CTRL + E`
+    - Type : `settings.json` _(you should see 2 options)_
+    - Paste the content of `.vscode/settings.json` in your local `settings.json` file
 5. Delete the content of `README.md`
 
 6. Configure your project with `npm`
@@ -23,6 +23,10 @@ The `.vscode` folder is only there to save my own VSCode setup and should not st
 ```bash
 npm init
 ```
+```bash
+npm i -D typescript eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
+```
+
 
 ## Push your own Github project
 
