@@ -1,6 +1,6 @@
 # Env
 .env*
-!.env.example
+!.env.sample
 
 # Logs
 logs
