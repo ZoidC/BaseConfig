@@ -8,7 +8,7 @@ The `.vscode` folder is only there to save my own VSCode setup and should not st
 
 1. [Download](https://github.com/ZoidC/BaseConfig/archive/refs/heads/dev.zip) this repository as Zip, extract and rename
 
-2. Open VSCode and open this new local folder
+2. Open this folder with VSCode
 
 3. Install the recommanded extensions _(when it's done, you can delete the `.vscode/extensions.json` file)_
 
@@ -16,17 +16,17 @@ The `.vscode` folder is only there to save my own VSCode setup and should not st
     - Open the prompt : `CTRL + E`
     - Type : `settings.json` _(you should see 2 options)_
     - Paste the content of `.vscode/settings.json` in your local `settings.json` file
-5. Delete the content of `README.md`
+5. Delete the content of this `README.md`
 
 6. Configure your project with `npm`
 
 ```bash
 npm init
 ```
-```bash
-npm i -D typescript eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
-```
 
+```bash
+npm i -D eslint prettier prettier-eslint typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin
+```
 
 ## Push your own Github project
 

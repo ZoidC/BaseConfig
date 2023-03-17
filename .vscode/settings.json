@@ -22,8 +22,7 @@
     },
     // Default Formatter
     // Better than Prettier which is heavily opinionated
-    "eslint.format.enable": true,
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
     "javascript.format.semicolons": "insert",
     "typescript.format.semicolons": "insert",
     // Files
@@ -44,5 +43,5 @@
     },
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "git.enableSmartCommit": true,
-    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotShowInfoMsg": true
 }

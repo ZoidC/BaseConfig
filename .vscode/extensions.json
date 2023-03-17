@@ -6,8 +6,8 @@
 
         // Lint
         "dbaeumer.vscode-eslint", // ESLint
+        "rvest.vs-code-prettier-eslint", // Prettier ESLint
         "deque-systems.vscode-axe-linter", // Axe Linter
-        "EditorConfig.EditorConfig", // Editor Config
 
         // QoL
         "eamodio.gitlens", // GitLens
@@ -16,6 +16,7 @@
         "quicktype.quicktype", // JSON Typer
         "wix.vscode-import-cost", // Import Cost
         "ritwickdey.LiveServer", // Live Server
+        "ms-vsliveshare.vsliveshare", // Live Share
         "mongodb.mongodb-vscode" // MongoDB
     ]
 }
